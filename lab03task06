@@ -1,0 +1,10 @@
+#Program to determine whether a number is even or odd.
+
+num=int(input("Enter a Number: "))
+
+rem=num%2
+
+if rem==0:
+    print("\nThe number ",num," is an even number.")
+else:
+    print("\nThe number ",num," is an odd number.")
