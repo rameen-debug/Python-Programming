@@ -1,0 +1,8 @@
+width=float(input("Enter Width of the Rectangle (cm): "))
+length=float(input("Enter Length of the Rectangle (cm): "))
+
+area = length*width
+perimeter = 2*(length+width)
+
+print("\nThe area of the rectangle is ",area,"cm²")
+print("The perimeter of the rectangle is ",perimeter,"cm")
