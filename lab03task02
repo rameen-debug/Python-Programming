@@ -1,0 +1,11 @@
+#Variables and Data Types
+
+name= "Rameen Arjmand"
+age = 17
+sem = 1
+cgpa = 3.75
+
+print("Name: ",name)
+print("Age: ",age)
+print("Semester: ",sem)
+print("CGPA: ",cgpa)
