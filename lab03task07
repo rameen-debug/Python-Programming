@@ -1,0 +1,8 @@
+#Enter marks to print pass or fail.
+
+marks=float(input("Enter your marks out of 100: "))
+
+if marks>=50:
+    print("Status: Pass")
+else:
+    print("Status: Fail")
