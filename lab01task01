@@ -1,0 +1,4 @@
+print("Welcome to Python Programming")
+print("Name: Rameen Arjmand")
+print("Department: Software Engineering")
+print("Semester: 1")
