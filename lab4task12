@@ -1,0 +1,14 @@
+#Write a Python program to create a set of numbers, add two elements, and remove one element.
+
+#creating a set of numbers
+numbers = {56,88,44,33}
+print(numbers)
+#adding two numbers in the set
+numbers.add(70)
+numbers.add(45)
+print("Adding two elements in the set:")
+print(numbers)
+#removing a number from the set
+numbers.remove(44)
+print("Removing an element from the set:")
+print(numbers)
