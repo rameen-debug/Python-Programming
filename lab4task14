@@ -1,0 +1,12 @@
+#Create a Python program that calculates the factorial of a number using a while loop.
+
+#prompt the user to enter an integer
+num = int(input("\nEnter an Integer:"))
+i = 1
+factorial = 1
+
+while (i<=num):
+    factorial = factorial * i
+    i += 1
+#print factorial  
+print("Factorial of",num,"is",factorial,"\n")
