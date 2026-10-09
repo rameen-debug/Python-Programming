@@ -1,0 +1,13 @@
+#Task 1: Write a Python program to compare two user-entered numbers using all relational operators.
+
+#Prompt the user to enter two numbers
+a = int(input("Enter the first number (a): "))
+b = int(input("Enter the second number (b): ")) 
+
+#Comparing them using relational operators (true/false)
+print("a==b: " , a == b) #EQUAL TO
+print("a!=b: " , a != b) #NOT EQUAL TO
+print("a>b: " , a > b) #GREATER THAN
+print("a<b: " , a < b) #LESS THAN
+print("a>=b: " , a >= b) #GREATER THAN OR EQUAL TO
+print("a<=b: " , a <= b) #LESS THAN OR EQUAL TO
