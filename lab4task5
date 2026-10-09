@@ -1,0 +1,9 @@
+#Write a Python program that checks if a number is between 1 and 100 using logical operators.
+
+#Prompt the user to enter a number
+num = float(input("Enter a number: "))
+#check if the number is between 1 and 100
+if num>1 and num<100:
+    print("The number is between 1 and 100.")
+else:
+    print("The number is not between 1 and 100.")
