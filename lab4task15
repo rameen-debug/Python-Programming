@@ -1,0 +1,12 @@
+# Write a Python script to display a multiplication table of a number using a for loop.
+
+#Program to Print Out the Table of a Number
+#Prompt the user to enter a number
+num = int(input("\nEnter a number: "))
+i = 1
+prod = 1
+print("\nTable of number",num)
+for i in range(1,13): #Apply loop for the table
+    prod = num * i
+    print(num,"x",i,"=",prod)
+print("\n")
