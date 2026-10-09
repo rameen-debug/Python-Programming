@@ -1,0 +1,14 @@
+#Write a Python program that asks for the user's age and prints whether they are a child, teenager, or adult.
+
+#Prompt the user to enter their age
+age = int(input("Enter your age: "))
+#Checking conditions for child, teenager and adult.
+if age >= 0:  
+    if age < 13:
+        print("You are a child.")
+    elif age <= 19:
+        print("You are a teenager.")
+    else:
+        print("You are an adult.")
+else:
+    print("You have entered invalid number.")
