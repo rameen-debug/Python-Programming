@@ -1,0 +1,17 @@
+#Create an array and find the maximum and minimum value.
+
+#array of numbers
+numbers = [2,15,16,58,34]
+
+#let first element be the maximum and the minimum
+max=numbers[0]
+min=numbers[0]
+
+#check every number in the array
+for num in numbers:
+    if num>max: 
+        max=num
+    if num<min:
+        min=num 
+print("The maximum number =", max)
+print("The minimum number =",min)
