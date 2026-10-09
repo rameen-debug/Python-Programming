@@ -1,0 +1,18 @@
+#Write a Python program that sorts a list of numbers in descending order and removes duplicates.
+
+#list of numbers
+numbers = [5,7,8,8,9,3,3,2,3,2,1]
+original = []
+#remove duplications
+for num in numbers:
+    if num not in original:
+        original.append(num)
+#print list having removed duplications
+print(original)
+#sorting the list in descending order
+for i in range(len(original)):
+    for j in range(i+1,len(original)):
+        if original[i] < original[j] :
+            original[i], original[j] = original[j], original[i]
+#printing out the list in descending order
+print(original)
