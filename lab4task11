@@ -1,0 +1,7 @@
+#Create a tuple with 4 elements. Print the second and third elements.
+
+#Creating a tuple
+my_tuple = (54,34,78,90)
+#Printing out the second and third elements
+print("Second Element in the tuple: ",my_tuple[1])
+print("Third Element in the tuple: ",my_tuple[2])
