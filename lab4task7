@@ -1,0 +1,13 @@
+#Write a Python program that creates an array of 5 numbers and prints the sum of all elements.
+
+numbers = [1,8,9,4,10] #an array of numbers
+
+#start sum from zero
+total = 0 
+
+#add each number from array to the total sum
+for num in numbers: 
+    total = total + num 
+
+#printing out the total sum
+print("Sum of the numbers in the array =", total)
