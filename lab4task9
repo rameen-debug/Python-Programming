@@ -1,0 +1,5 @@
+#Create a list of 4 elements, modify the second element, and print the updated list.
+
+snacks = ["lays","chocolate","juice","coke"] #original list
+snacks[1]="candies" #modifying "chocolate" with "candies"
+print(snacks) #printing the updated list
